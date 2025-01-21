@@ -1,4 +1,4 @@
-FROM twistopayments/deploy-checker-base:v1
+FROM public.ecr.aws/twisto/deploy-checker-base:v1
 
 COPY src/ /app/
 
